@@ -1,0 +1,34 @@
+<mat-toolbar style="background-color: #f0db3f; color: black">
+  <div class="view">
+  <i
+    *ngIf="isNoteView"
+    (click)="switchView()"
+    class="material-icons switchToListView"
+    >view_list</i
+  >
+  <i
+    *ngIf="!isNoteView"
+    (click)="switchView()"
+    class="material-icons switchToNoteView"
+    >view_quilt</i
+  >
+</div>
+  <span class="keep">Keep</span>
+  <button
+    mat-flat-button
+    color="primary"
+    routerLink="/login"
+    routerLinkActive="active"
+  >
+    Login
+  </button>
+  <span style="margin-right: 10px"></span>
+  <button
+    mat-flat-button
+    color="primary"
+    routerLink="/dashboard"
+    routerLinkActive="active"
+  >
+    Dashboard
+  </button>
+</mat-toolbar>

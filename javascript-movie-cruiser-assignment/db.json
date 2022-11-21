@@ -1,0 +1,42 @@
+{
+  "movies": [
+    {
+      "id": "1",
+      "title": "3 Idiots",
+      "releaseDate": "2009",
+      "posterPath": "images/3idiots.jpg"
+    },
+    {
+      "id": "2",
+      "title": "1917",
+      "releaseDate": "2019",
+      "posterPath": "images/1917.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Dune",
+      "releaseDate": "2021",
+      "posterPath": "images/dune.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Intersteller",
+      "releaseDate": "2014",
+      "posterPath": "images/intersteller.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Joker",
+      "releaseDate": "2019",
+      "posterPath": "images/joker.jpg"
+    }
+  ],
+  "favourites": [
+    {
+      "id": "5",
+      "title": "Joker",
+      "releaseDate": "2019",
+      "posterPath": "images/joker.jpg"
+    }
+  ]
+}

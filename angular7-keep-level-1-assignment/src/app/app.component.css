@@ -1,0 +1,28 @@
+.add-note-section {
+    margin-left: 25%;
+    width: 50%;
+}
+
+.mat-input {
+    width: 100%;
+}
+
+.notes-section {
+    width: 50%;
+    margin-left: 25%;
+    align-items: center;
+}
+
+mat-card {
+
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.notes-section{
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
